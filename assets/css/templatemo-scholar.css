@@ -317,12 +317,15 @@ Header Style
   display: flex
 }
 
-.header-area .main-nav .logo img {
-  height: 800px;
+.header-area .main-nav .logo {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
   display: inline-block;
 }
 
-.header-area .main-nav .logo h1 {
+.header-area .main-nav .logo img {
   font-size: 36px;
   text-transform: uppercase;
   color: #fff;
