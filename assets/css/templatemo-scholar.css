@@ -337,7 +337,7 @@ width: 200px;
 .header-area .main-nav ul.nav {
   border-radius: 0px 0px 25px 25px;
   flex-basis: 100%;
-  margin-right: 0px;
+  margin-right: 50px;
   justify-content: right;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
