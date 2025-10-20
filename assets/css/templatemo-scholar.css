@@ -1112,7 +1112,6 @@ Team Style
 .team {
   margin-top: 100px;
     padding-top: 140px;
-    margin-left: 100px;
 }
 
 .team-member {
@@ -1135,7 +1134,7 @@ Team Style
 
 .team-member .main-content {
   border-radius: 25px;
-  padding: 140px 30px 40px 30px;
+  padding: 10px 30px 40px 30px;
   background-color: #f1f0fe;
   text-align: center;
 }
