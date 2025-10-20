@@ -1,113 +1,134 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
-
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Nossos Cursos - CEEP Castaldi</title>
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/templatemo-scholar.css" />
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      padding-top: 70px;
-    }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    header {
-      background-color: #007bff;
-      color: white;
-      padding: 15px 0;
-      position: fixed;
-      top: 0;
-      width: 100%;
-      z-index: 1000;
-    }
-
-    header a {
-      color: white;
-      text-decoration: none;
-      font-weight: 600;
-    }
-
-    main {
-      max-width: 900px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    h1,
-    h2 {
-      margin-bottom: 20px;
-    }
-
-    section {
-      margin-bottom: 40px;
-    }
-
-    ul.courses-list {
-      list-style-type: disc;
-      padding-left: 20px;
-    }
-
-    ul.courses-list li {
-      margin-bottom: 10px;
-    }
-
-    footer {
-      text-align: center;
-      padding: 15px 0;
-      color: #666;
-      border-top: 1px solid #ddd;
-      margin-top: 40px;
-    }
-  </style>
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-scholar.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
 </head>
-
 <body>
-  <header class="text-center">
+   <section class="section courses" id="courses">
     <div class="container">
-      <h1>Nossos Cursos Técnicos</h1>
-      <a href="index.html" target="_self">&larr; Voltar para a página principal</a>
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>Latest Courses</h6>
+            <h2>Latest Courses</h2>
+          </div>
+        </div>
+      </div>
+      <ul class="event_filter">
+        <li>
+          <a class="is_active" href="#!" data-filter="*">Show All</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".design">Webdesign</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".development">Development</a>
+        </li>
+        <li>
+          <a href="#!" data-filter=".wordpress">Wordpress</a>
+        </li>
+      </ul>
+      <div class="row event_box">
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-01.jpg" alt=""></a>
+              <span class="category">Webdesign</span>
+              <span class="price">
+                <h6><em>$</em>160</h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author">Stella Blair</span>
+              <h4>Learn Web Design</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6  development">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-02.jpg" alt=""></a>
+              <span class="category">Development</span>
+              <span class="price">
+                <h6><em>$</em>340</h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author">Cindy Walker</span>
+              <h4>Web Development Tips</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 design wordpress">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-03.jpg" alt=""></a>
+              <span class="category">Wordpress</span>
+              <span class="price">
+                <h6><em>$</em>640</h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author">David Hutson</span>
+              <h4>Latest Web Trends</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 development">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-04.jpg" alt=""></a>
+              <span class="category">Development</span>
+              <span class="price">
+                <h6><em>$</em>450</h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author">Stella Blair</span>
+              <h4>Online Learning Steps</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress development">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-05.jpg" alt=""></a>
+              <span class="category">Wordpress</span>
+              <span class="price">
+                <h6><em>$</em>320</h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author">Sophia Rose</span>
+              <h4>Be a WordPress Master</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 align-self-center mb-30 event_outer col-md-6 wordpress design">
+          <div class="events_item">
+            <div class="thumb">
+              <a href="#"><img src="assets/images/course-06.jpg" alt=""></a>
+              <span class="category">Webdesign</span>
+              <span class="price">
+                <h6><em>$</em>240</h6>
+              </span>
+            </div>
+            <div class="down-content">
+              <span class="author">David Hutson</span>
+              <h4>Full Stack Developer</h4>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-  </header>
-
-  <main>
-    <section>
-      <h2>Cursos Integrados ao Ensino Médio</h2>
-      <p>Oferecemos cursos técnicos integrados ao ensino médio, que permitem ao aluno concluir o ensino médio e o curso técnico simultaneamente.</p>
-      <ul class="courses-list">
-        <li>Técnico em Informática</li>
-        <li>Técnico em Administração</li>
-        <li>Técnico em Mecânica</li>
-        <li>Técnico em Eletrônica</li>
-        <!-- Adicione mais cursos conforme necessário -->
-      </ul>
-    </section>
-
-    <section>
-      <h2>Cursos para quem já concluiu o Ensino Médio</h2>
-      <p>Para quem já concluiu o ensino médio, oferecemos cursos técnicos de formação rápida e qualificação profissional.</p>
-      <ul class="courses-list">
-        <li>Técnico em Redes de Computadores</li>
-        <li>Técnico em Logística</li>
-        <li>Técnico em Segurança do Trabalho</li>
-        <li>Técnico em Enfermagem</li>
-        <!-- Adicione mais cursos conforme necessário -->
-      </ul>
-    </section>
-
-    <section>
-      <h2>Informações Adicionais</h2>
-      <p>Para mais informações sobre os cursos, matrículas, horários e valores, entre em contato conosco pelo telefone (XX) XXXX-XXXX ou pelo e-mail contato@ceepcastaldi.com.br.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2024 CEEP Castaldi - Todos os direitos reservados.</p>
-  </footer>
-
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  </section>
 </body>
-
 </html>
